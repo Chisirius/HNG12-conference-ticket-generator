@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #02191d;
+  color: #ffffff;
+}
+
+#step1,
+#step2,
+#step3 {
+  border: 5px solid red;
+  margin: 0 auto;
+  width: 100vw;
+  padding: 48px;
+}
+
+.ticket-selection,
+.attendee-details {
+  background-color: #041e23;
+  border: #0e464f solid 5px;
+  border-radius: 40px;
+  width: 700px;
+  padding: 48px;
+  margin: 0 auto;
+}
+
+.step-process {
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  border: #0e464f solid 5px;
+  border-radius: 32px;
+  padding: 24px;
+  width: 604px;
+}
+
+.theme {
+  width: 556px;
+  padding: 24px 0;
+  border: 2px solid #0e464f;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.upload {
+  width: 556px;
+  padding: 24px 24px 48px;
+  border: 2px solid red;
+
+  border-radius: 24px;
+}
+
+.upload p {
+  font-size: 16px;
+  font-style: Roboto;
+  line-height: 150%;
+  padding-bottom: 32px;
+}
+.image-layer {
+  height: 200px;
+  border: 2px solid green;
+}
+
+.upload-box {
+  width: 240px;
+  height: 240px;
+  border: 2px solid blue;
+  padding: 24px;
+  border-radius: 32px;
+  margin: -28px auto;
+  padding: 24px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-box:hover {
+  background-color: rgba(
+    19,
+    146,
+    146,
+    0.6
+  ); /* Light shade background on hover */
+}
+.upload-image {
+  margin: 35% auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  font-style: Roboto;
+}
+.theme h5 {
+  padding-bottom: 8px;
+  font-size: 16px;
+
+  font-family: Roboto;
+  line-height: 150%;
+}
+
+hr {
+  margin: 32px 0;
+  height: 4px;
+  border-color: #0e464f;
+}
+
+h1 {
+  font-family: Road range;
+}
+
+.ticket-type h2 {
+  padding-bottom: 8px;
+  font-style: Roboto;
+  font-size: 16px;
+}
+
+.ticket {
+  width: 556px;
+  border: 2px solid #0e464f;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 24px;
+}
+
+.ticket div {
+  border: 2px solid #0e464f;
+  width: 158px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.ticket h4 {
+  padding-bottom: 12px;
+  font-size: 24px;
+  font-size: 22px;
+  font-style: Roboto;
+}
+
+.ticket P {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.ticket-no {
+  font-size: 16px;
+  font-family: Roboto;
+  margin: 32px 0;
+}
+
+.number {
+  display: block;
+  justify-content: space-around;
+  width: 556px;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 150px;
+  border-color: #0e464f;
+}
+
+.buttons {
+  display: flex;
+  width: 556px;
+  gap: 8px;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 24px;
+  width: 256px;
+  border-radius: 8px;
+  font-style: JejuMyeongjo;
+  color: #24a0b5;
+  border-color: #24a0b5;
+}
+
+input,
+textarea {
+  display: block;
+  width: 556px;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 1px solid #0e464f;
+}
+
+.step3 h2 {
+  font-style: Alatsi;
+  font-size: 32px;
+  line-height: 150px;
+  padding-bottom: 16px;
+}
+
+.step3 p {
+  font-style: Roboto;
+  font-size: 16px;
+  line-height: 150px;
+}
+
+.order3 {
+  border: #0e464f solid 5px;
+  border-radius: 32px;
+  padding: 24px;
+  width: 604px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0e2238;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 1200px;
+}
+
+nav h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li:hover {
+  color: #00bcd4;
+}
+
+.my-tickets {
+  background: #00bcd4;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.my-tickets:hover {
+  background: #0097a7;
+}
+
+.container {
+  border: 1px solid #0e464f;
+  border-radius: 24px;
+  width: 700px;
+  padding: 48px;
+  margin: 0 auto;
+}
+
+.baby-container {
+  width: 604px;
+  margin: 0 auto;
+}
+
+.confirm {
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.confirm h2 {
+  padding-bottom: 16px;
+  font-style: Alatsi;
+  font-size: 32px;
+}
+.confirm p {
+  font-style: Roboto;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.grand-container {
+  margin-bottom: 24px;
+  padding: 32px 21px;
+}
+
+.concave-box {
+  background-image: url("Ticket.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 300px;
+  height: 600px;
+  padding: 14px;
+  margin: auto;
+}
+
+.concave-box2 {
+  /* position: absolute; */
+  width: 260px;
+  height: 446px;
+  padding: 14px;
+  margin: auto;
+  border: #24a0b5 solid 2px;
+  border-radius: 14px;
+}
+
+.theme2 {
+  width: 175px;
+  margin: auto;
+  text-align: center;
+}
+
+.theme2 h3 {
+  font-style: Road Rage;
+  text-align: center;
+  line-height: 100%;
+  width: 175px;
+}
+.theme2 p {
+  font-size: 10px;
+  font-style: Roboto;
+  line-height: 150%;
+}
+
+.image {
+  border: 4px solid blue;
+  margin: 20px auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+}
+.user-info {
+  border: #24a0b5 solid 0.5px;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.info1,
+.info2 {
+  display: flex;
+}
+
+.a {
+  width: 108px;
+  border-bottom: 0.5px solid;
+  border-right: 0.5px solid;
+  padding: 4px;
+  border-color: #24a0b5;
+}
+.b {
+  width: 108px;
+  border-bottom: 0.5px solid;
+  padding: 4px;
+  padding-left: 10px;
+  border-color: #24a0b5;
+}
+
+.data {
+  padding-bottom: 4px;
+  font-size: 10px;
+  font-style: Roboto;
+  line-height: 150%;
+  opacity: 33%;
+}
+
+.info {
+  font-size: 12px;
+  font-style: Roboto;
+  line-height: 150%;
+}
+
+.special-request {
+  padding: 8px;
+}
+
+.special-request .info {
+  font-size: 10px;
+}
+
+.barcode {
+  width: 236px;
+  height: 68px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #00bcd4;
+  color: white;
+  border-radius: 8px;
+  margin: 18% auto;
+}
